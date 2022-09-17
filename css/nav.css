@@ -1,0 +1,53 @@
+.nav {
+    display: flex;
+    height: 100px;
+    padding: 1rem;
+}
+
+.nav__side {
+    flex-grow: 1;
+    line-height: 68px;
+    color: rgb(140, 146, 152);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__subscribe {
+    text-align: left;
+    text-decoration-color: rgb(140, 146, 152);
+}
+
+.nav__search {
+    margin: auto;
+    position: relative;
+}
+
+.gg-search {
+    position: absolute;
+    right: 20px;
+}
+
+.nav__title {
+    flex-grow: 5;
+    text-align: center;
+    line-height: 68px;
+}
+
+.nav__title h1 {
+    font-size: 2rem;
+    color: rgb(53, 57, 64);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav__subscribe {
+        font-size: 0.7rem;
+    }
+
+    .nav__side {
+        flex-basis: 10%;
+    }
+
+    .nav__title h1 {
+        font-size: 1.5rem;
+    }
+}
