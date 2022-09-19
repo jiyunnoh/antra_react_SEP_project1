@@ -6,16 +6,15 @@
 
 .card {
     flex-basis: 50%;
-    height: 200px;
+    height: 250px;
     padding: 1.5rem 1rem;
     border: 5px solid rgb(237, 237, 237);
     position: relative;
 }
 
 .card__theme {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -28,27 +27,24 @@
 }
 
 .card__title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgb(34, 37, 42);
+    font-family: serif, Arial, Helvetica;
 }
 
 .card__date {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: rgb(126, 132, 139);
     margin-bottom: 0.5rem;
 }
 
 .card__preview {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: rgb(87, 89, 93);
     line-height: 20px;
 }
 
 .card__readmore {
-    color: rgb(99, 157, 250);
-    text-decoration: underline;
     position: absolute;
     bottom: 15px;
 }

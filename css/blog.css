@@ -1,0 +1,148 @@
+.container {
+    display: flex;
+}
+
+.blog-main {
+    flex-basis: 66.66%;
+    padding: 0 2rem;
+}
+
+.blog-main__title {
+    margin-bottom: 0.5rem;
+}
+
+h1.blog-main__title {
+    font-size: 2.5rem;
+    font-family: serif, Arial, Helvetica;
+}
+
+h2.blog-main__title {
+    font-size: 2.2rem;
+    font-family: serif, Arial, Helvetica;
+}
+
+h3.blog-main__title {
+    font-size: 1.9rem;
+    font-family: serif, Arial, Helvetica;
+}
+
+.blog-main__date {
+    font-size: 1rem;
+    color: rgb(126, 132, 139);
+    margin-bottom: 1rem;
+}
+
+.blog-main__content {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.blog-main__content--quote {
+    border: 2px solid rgb(200, 200, 200);
+    padding: 1rem;
+}
+
+ul.blog-main__content,
+ol.blog-main__content {
+    margin-left: 2rem;
+}
+
+.blog-main__btn__container {
+    padding: 3rem 0;
+}
+
+.blog-main__btn {
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.blog-main__btn--primary {
+    border: 1.5px solid rgb(75, 144, 250);
+    color: rgb(75, 144, 250);
+}
+
+.blog-main__btn--gray {
+    border: 1.5px solid rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+}
+
+/* main p:last-child.blog-main__content {
+    margin-bottom: 0;
+} */
+
+hr {
+    margin-bottom: 1rem;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.blog-aside {
+    flex-basis: 33.33%;
+    padding: 0 1rem;
+}
+
+.blog-aside__box {
+    padding: 1.5rem;
+}
+
+.blog-aside__box--gray {
+    background-color: rgb(245, 245, 245);
+}
+
+.blog-aside__title {
+    margin-bottom: 0.5rem;
+}
+
+h4.blog-aside__title {
+    font-size: 1.6rem;
+    font-family: serif, Arial, Helvetica;
+    font-style: italic;
+}
+
+.blog-aside__content {
+    line-height: 1.5rem;
+}
+
+p.blog-aside__content {
+    margin-bottom: 1rem;
+}
+
+p:last-child.blog-aside__content {
+    margin-bottom: 0;
+}
+
+ul.blog-aside__content {
+    list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+
+    .blog-main {
+        padding: 0;
+    }
+
+    .blog-aside {
+        padding: 0;
+    }
+
+    h1.blog-main__title {
+        font-size: 1.9rem;
+    }
+
+    h2.blog-main__title {
+        font-size: 1.7rem;
+    }
+
+    h3.blog-main__title {
+        font-size: 1.5rem;
+    }
+
+    .blog-main__btn__container {
+        padding: 2rem 0;
+    }
+}
