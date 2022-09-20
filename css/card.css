@@ -12,6 +12,10 @@
     position: relative;
 }
 
+.card:hover {
+    border: 2px solid rgb(237, 237, 237);
+}
+
 .card__theme {
     font-weight: bold;
     font-size: 1rem;

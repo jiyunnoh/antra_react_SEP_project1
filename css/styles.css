@@ -1,6 +1,7 @@
 @import "./card.css";
 @import "./nav.css";
 @import "./blog.css";
+@import "./footer.css";
 
 * {
     margin: 0;

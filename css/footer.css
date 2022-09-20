@@ -1,0 +1,33 @@
+footer {
+    background-color: rgb(245, 245, 245);
+    height: 100px;
+    position: relative;
+
+}
+
+.footer__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(200, 200, 200);
+
+}
+
+.footer__subtitle {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        height: 80px;
+    }
+
+    .footer__title,
+    .footer__subtitle {
+        font-size: 0.6rem;
+    }
+}
